@@ -480,7 +480,7 @@
 					function onMousemove(e){
 						touchFix(e);
 						if(!moveExecuted){
-							$element.parent().prepend(clone);
+							body.prepend(clone);
 							moveExecuted = true;
 						}
 						$controllers[1].$moveUpdate(opts, {
