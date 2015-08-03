@@ -23,5 +23,9 @@
     "test",
     "tests",
     "lib"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Aboutcom/angular-sortable-view.git"
+  }
 }
